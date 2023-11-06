@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: auto;
+    height: auto;
+    background-image: url("assets/Gaming0_generated.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.header {
+    color: rgba(255, 166, 0, 0.655);
+    text-align: center;
+
+    margin-top: 4%;
+
+}
+
+.start_btn {
+    width: 260px;
+    height: 110px;
+    border-radius: 30%;
+    border: hidden;
+    align-items: center;
+    background: url("assets/pngwing.com.png") no-repeat center transparent;
+    cursor: pointer;
+
+
+}
+input{
+    margin-top: 8%;
+    padding: 5px 5px;
+}
+
+.start_container {
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 3%;
+    line-height: 25px;
+}
+
+.gamezone {
+    width: 60%;
+    height: 55vh;
+    margin: 2% 0 0 20%;
+    border-radius: 2%;
+    background-color: black;
+    border: 5px solid darkred;
+    color: white;
+    
+
+
+}
+.pc{
+    width: 48%;
+    height: 50%;
+    display: inline-block;
+    text-align: center;
+}
+.pc h1 , .player h1{
+    margin-bottom: 15%;
+}
+.pc img{
+    width: 30%;
+    
+
+}
+.player{
+    width: 48%;
+    height: 60%;
+    display: inline-block;
+    text-align: center;
+}
+.player img{
+    width: 30%;
+    
+}
+
+.choise li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 17%;
+    
+}
+.choise li button{
+    width: 10%;
+    height: 50px;
+    margin-top: 10%;
+    border: 3px solid darkred;
+    border-radius: 10%;
+    background-color: burlywood;
+    cursor: pointer;
+    
+}
+#win{
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    font-size: 50px;
+    color: green;
+    display: none;
+}
+#lose{
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    font-size: 50px;
+    color: red;
+    display: none;
+}
+#scorless{
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    font-size: 50px;
+    color: orange;
+    display: none;
+}
+.score{
+    float: right;
+    display: flex;
+    margin-right: 5px;
+}

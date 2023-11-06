@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taş Kağıt Makas Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>HOŞGELDİN</h1>
+        <br>
+        <hr color="darkred">
+        <br>
+    </div>
+
+    <div class="gamezone">
+
+
+        <div class="pc">
+            <h1>Bot </h1>
+            <div>
+                <img id="choise_js_rock" src="assets/rock.png" alt="">
+                <img id="choise_js_paper" src="assets/paper.png" alt="">
+                <img id="choise_js_scissors" src="assets/scissor1s.png" alt="">
+
+            </div>
+
+        </div>
+        
+        <div class="player">
+            <h1 id="nickname1">You</h1>
+            <div>
+                <img id="choise_js_rock1" src="assets/rock1.png" alt="">
+                <img id="choise_js_paper1" src="assets/paper1.png" alt="">
+                <img id="choise_js_scissors1" src="assets/scissors.png" alt="">
+            </div>
+        </div>
+        <ul class="choise">
+            <li><button id="rock_button"> <img src="assets/rock1.png" width="30px" alt=""> <br>TAŞ</button></li>
+            <li><button id="paper_button"> <img src="assets/paper.png" width="30px" alt=""> <br>KAĞIT</button></li>
+            <li><button id="scissors_button"> <img src="assets/scissors.png" width="30px" alt=""> <br>MAKAS</button></li>
+        </ul>
+        <div class="result">
+            <div id="win">
+                    <h1>KAZANDIN</h1>
+            </div>
+            <div id="lose">
+                    <h1>KAYBETTİN</h1>
+            </div>
+            <div id="scorless">
+                <h1>BERABERE</h1>
+        </div>
+        </div> 
+        <div class="score">
+            <p>Score :</p>
+            <p id="score">0</p>
+        </div>
+
+    </div>
+    
+
+    <div class="footer">
+        <h2>Taş - Kağıt - Makas</h2>
+        <h3>Developed by Dundar</h3>
+        <h4>2023</h4>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

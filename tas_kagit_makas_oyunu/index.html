@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taş Kağıt Makas Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>HOŞGELDİN</h1>
+        <br>
+        <hr color="darkred">
+        <br>
+        <h2>Oyuna başlamak için tıkla</h2>
+        <input id="nickname" type="text" placeholder="Nickname..">
+    </div>
+    <div class="start_container">
+        <button id="start_button" class="start_btn"></button>
+
+    </div>
+
+
+
+    <div class="footer">
+        <h2>Taş - Kağıt - Makas</h2>
+        <h3>Developed by Dundar</h3>
+        <h4>2023</h4>
+    </div>
+
+
+    <script>
+        document.getElementById("start_button").addEventListener("click", function () {
+
+            var nicknames = document.getElementById("nickname").value;
+
+            window.location.href = "game_page.html?metin=" + encodeURIComponent(nicknames);
+
+            
+
+
+        });
+    </script>
+
+</body>
+
+</html>
